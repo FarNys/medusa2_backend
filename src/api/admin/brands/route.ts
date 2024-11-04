@@ -7,6 +7,19 @@ import { ContainerRegistrationKeys } from "@medusajs/framework/utils";
 import BrandModuleService from "src/modules/brand/service";
 import { BRAND_MODULE } from "src/modules/brand";
 
+// export const POST = async (
+//   req: MedusaRequest<CreateBrandInput>,
+//   res: MedusaResponse
+// ) => {
+
+//   const brandModuleService: BrandModuleService =
+//     req.scope.resolve(BRAND_MODULE);
+
+//   const result = await brandModuleService.createBrands(req.body);
+
+//   res.json({ brand: result });
+// };
+
 export const POST = async (
   req: MedusaRequest<CreateBrandInput>,
   res: MedusaResponse
