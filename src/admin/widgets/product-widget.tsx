@@ -86,13 +86,13 @@ const ProductWidget = () => {
   );
 };
 
-export const config = defineWidgetConfig({
-  zone: "product.details.before",
-});
+// export const config = defineWidgetConfig({
+//   zone: "product.details.before",
+// });
 
-export const configRoute = defineRouteConfig({
-  label: "Brand",
-  icon: Apple,
-});
+// export const configRoute = defineRouteConfig({
+//   label: "Brand",
+//   icon: Apple,
+// });
 
 export default ProductWidget;

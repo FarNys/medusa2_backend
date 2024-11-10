@@ -34,7 +34,7 @@ export const POST = async (
 export const GET = async (req: MedusaRequest, res: MedusaResponse) => {
   const brandModuleService: BrandModuleService =
     req.scope.resolve(BRAND_MODULE);
-
+  console.log("brandModuleService", brandModuleService);
   const limit = req.query.limit || 15;
   const offset = req.query.offset || 0;
 
